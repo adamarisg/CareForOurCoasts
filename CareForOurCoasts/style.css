@@ -1,0 +1,172 @@
+* { /* Reset the space of the webpage */
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ body {
+  background-color: #F6EFCB; 
+  text-align: center;
+   
+  
+  
+ }
+ 
+ /* FONTS */
+ 
+ @font-face{
+   font-family: beach-font;
+   src: url(centralia-gooza.ttf);
+ }
+ div{
+   font-family: beach-font;
+ }
+ 
+
+ 
+ @font-face{
+   font-family: new-font;
+   src: url(centralia-gooza.ttf);
+ }
+ div{
+   font-family: new-font;
+ }
+
+ 
+ 
+ 
+ /*styling text*/
+ 
+ h1 {
+   color:#374B81;
+   text-shadow: 2px 2px white;
+   text-align: center;
+   font-size: 3em;
+   font-family: beach-font;
+   padding-top: 0.5em;
+   padding-bottom: 0.5em
+ }
+ h2{
+   text-align: center;
+   color: #435B9D;
+   text-shadow: 2px 2px white;
+   margin-bottom: 1em;
+   font-family: beach-font;
+ }
+ h3{
+   font-family: beach-font;
+ }
+ 
+ .blurb{
+   margin-top: .5em;
+   margin-bottom: 0;
+   margin-left: 20%;
+   margin-right: 20%;
+   font-family: new-font;
+   font-weight: bold;
+ }
+ #help-title{
+   margin-bottom: .5em;
+ }
+ .help-blurb{
+   margin-bottom: 1em;
+   margin-left: 20%;
+   margin-right: 20%;
+   font-family: new-font;
+   font-weight: bold;
+ }
+ 
+ #main-blurb{
+   padding-top: 2em;
+   text-align: center;
+   font-family: new-font;
+   font-weight: bold;
+   font-size: 17px;
+   margin-left: 20%;
+   margin-right: 20%;
+ }
+ 
+ 
+ label{
+   font-family: new-font;
+   font-weight: bold;
+   
+ }
+ #fact-blurb{
+   margin-top: 1.5em;
+   font-weight: bold;
+   font-family: new-font;
+   margin-bottom: 1em;
+ }
+ 
+ /* STYLE IMAGES */
+ #main-image-home{
+   border: solid #0099B8;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   max-height: 80%;
+   margin-bottom: .25em; 
+   border-radius: 15%;
+ }
+ #about-img{
+   border: solid #0099B8;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 80%;
+   height: 90%;
+   border-radius: 15%;
+   margin-bottom: 2em;
+   margin-top: 2em;
+ }
+ #donate-title{
+   margin-top: 1em;
+   font-family: beach-font;
+   text-align: center;
+   color: #435B9D;
+   text-shadow: 2px 2px white;
+ }
+ 
+ 
+ /* STYLE NAV BAR */
+ li {
+  float: right;
+ }
+ 
+ li a {
+   text-decoration: none;
+   padding:1.3em;
+   color: #374B81;
+   font-family: new-font;
+   font-weight: bold;
+ }
+ 
+ li a:hover {
+   background-color:#F9F3DC;
+ }
+ 
+ ul {
+   font-size: 1.1em;
+   text-align: center;
+   list-style-type: none;
+   background-color: #E1EFE4;
+   overflow: hidden;
+   padding:0.8em;
+   text-shadow: 2px 2px white
+ }
+ 
+ 
+ 
+ 
+ 
+ /* STYLE BUTTONS */
+ 
+ #myButton{
+   font-family: new-font;
+   font-weight: bold;
+ }
+ #fact{
+   font-family: new-font;
+   font-weight: bold;
+   margin-top: 1.2em;
+ }
